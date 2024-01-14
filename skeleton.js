@@ -1,12 +1,12 @@
 class Skeleton {
     constructor(game) {
         this.game = game;
-        this.animator = new Animator(ASSET_MANAGER.getAsset("./Skeleton.png"), 0, 0, 47, 65, 4, 0.2);
+        this.animator = new Animator(ASSET_MANAGER.getAsset("./Skeleton.png"), 0, 0, 48, 65, 4, 0.2);
 
         this.x = 1000;
         this.y = 600;
 
-        this.speed = 250;
+        this.speed = 100;
     };
 
     update() {
